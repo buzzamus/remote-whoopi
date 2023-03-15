@@ -13,6 +13,7 @@ struct ContentView: View {
     @ObservedObject var model = ViewModelPhone()
     @State var reachable = "No"
     @StateObject private var sound = SubsonicPlayer(sound: "Fart.m4a")
+    @State private var triggerCount = 0
     var body: some View {
         ZStack {
             VStack {
@@ -34,10 +35,12 @@ struct ContentView: View {
             }
             .padding()
         }.onReceive(self.model.$fartTrigger) { thing in
-            if self.model.fartTrigger == true {
+            // triggerCount increment and check used to prevent automatic trigger of sound when app opens
+            if triggerCount > 0 {
                 print(thing)
                 sound.play()
             }
+            triggerCount += 1
         }
     }
 }
