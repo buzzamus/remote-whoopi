@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E61A519B29BD697D0057D766 /* RemoteWhoopieDetonatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61A519A29BD697D0057D766 /* RemoteWhoopieDetonatorApp.swift */; };
+		E61A519D29BD697D0057D766 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61A519C29BD697D0057D766 /* ContentView.swift */; };
+		E61A519F29BD697E0057D766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61A519E29BD697E0057D766 /* Assets.xcassets */; };
+		E61A51A229BD697E0057D766 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61A51A129BD697E0057D766 /* Preview Assets.xcassets */; };
+		E61A51A829BD697E0057D766 /* RemoteWhoopieDetonator Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E61A51A729BD697E0057D766 /* RemoteWhoopieDetonator Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E61A51AD29BD697E0057D766 /* RemoteWhoopieDetonatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61A51AC29BD697E0057D766 /* RemoteWhoopieDetonatorApp.swift */; };
+		E61A51AF29BD697E0057D766 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61A51AE29BD697E0057D766 /* ContentView.swift */; };
+		E61A51B129BD697E0057D766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61A51B029BD697E0057D766 /* Assets.xcassets */; };
+		E61A51B429BD697E0057D766 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61A51B329BD697E0057D766 /* Preview Assets.xcassets */; };
+		E6653E0429C0F01B006AA9FF /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = E6653E0329C0F01B006AA9FF /* Subsonic */; };
+		E6653E0829C0F4C0006AA9FF /* Fart.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E6653E0729C0F4C0006AA9FF /* Fart.m4a */; };
+		E6F77F0229BE4FC700E64C85 /* ViewModelIPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F77F0129BE4FC700E64C85 /* ViewModelIPhone.swift */; };
+		E6F77F0429BE50C200E64C85 /* ViewModelWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F77F0329BE50C200E64C85 /* ViewModelWatch.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E61A51A929BD697E0057D766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E61A518F29BD697D0057D766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E61A51A629BD697E0057D766;
+			remoteInfo = "RemoteWhoopieDetonator Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E61A51BA29BD697E0057D766 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E61A51A829BD697E0057D766 /* RemoteWhoopieDetonator Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E61A519729BD697D0057D766 /* RemoteWhoopieDetonator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteWhoopieDetonator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61A519A29BD697D0057D766 /* RemoteWhoopieDetonatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteWhoopieDetonatorApp.swift; sourceTree = "<group>"; };
+		E61A519C29BD697D0057D766 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E61A519E29BD697E0057D766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E61A51A129BD697E0057D766 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E61A51A729BD697E0057D766 /* RemoteWhoopieDetonator Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RemoteWhoopieDetonator Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61A51AC29BD697E0057D766 /* RemoteWhoopieDetonatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteWhoopieDetonatorApp.swift; sourceTree = "<group>"; };
+		E61A51AE29BD697E0057D766 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E61A51B029BD697E0057D766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E61A51B329BD697E0057D766 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E6653E0729C0F4C0006AA9FF /* Fart.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fart.m4a; sourceTree = "<group>"; };
+		E6F77F0129BE4FC700E64C85 /* ViewModelIPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelIPhone.swift; sourceTree = "<group>"; };
+		E6F77F0329BE50C200E64C85 /* ViewModelWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelWatch.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E61A519429BD697D0057D766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6653E0429C0F01B006AA9FF /* Subsonic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61A51A429BD697E0057D766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E61A518E29BD697D0057D766 = {
+			isa = PBXGroup;
+			children = (
+				E61A519929BD697D0057D766 /* RemoteWhoopieDetonator */,
+				E61A51AB29BD697E0057D766 /* RemoteWhoopieDetonator Watch App */,
+				E61A519829BD697D0057D766 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E61A519829BD697D0057D766 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E61A519729BD697D0057D766 /* RemoteWhoopieDetonator.app */,
+				E61A51A729BD697E0057D766 /* RemoteWhoopieDetonator Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E61A519929BD697D0057D766 /* RemoteWhoopieDetonator */ = {
+			isa = PBXGroup;
+			children = (
+				E61A519A29BD697D0057D766 /* RemoteWhoopieDetonatorApp.swift */,
+				E61A519C29BD697D0057D766 /* ContentView.swift */,
+				E6653E0729C0F4C0006AA9FF /* Fart.m4a */,
+				E61A519E29BD697E0057D766 /* Assets.xcassets */,
+				E61A51A029BD697E0057D766 /* Preview Content */,
+				E6F77F0129BE4FC700E64C85 /* ViewModelIPhone.swift */,
+			);
+			path = RemoteWhoopieDetonator;
+			sourceTree = "<group>";
+		};
+		E61A51A029BD697E0057D766 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E61A51A129BD697E0057D766 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E61A51AB29BD697E0057D766 /* RemoteWhoopieDetonator Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				E61A51AC29BD697E0057D766 /* RemoteWhoopieDetonatorApp.swift */,
+				E61A51AE29BD697E0057D766 /* ContentView.swift */,
+				E61A51B029BD697E0057D766 /* Assets.xcassets */,
+				E61A51B229BD697E0057D766 /* Preview Content */,
+				E6F77F0329BE50C200E64C85 /* ViewModelWatch.swift */,
+			);
+			path = "RemoteWhoopieDetonator Watch App";
+			sourceTree = "<group>";
+		};
+		E61A51B229BD697E0057D766 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E61A51B329BD697E0057D766 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E61A519629BD697D0057D766 /* RemoteWhoopieDetonator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E61A51BB29BD697E0057D766 /* Build configuration list for PBXNativeTarget "RemoteWhoopieDetonator" */;
+			buildPhases = (
+				E61A519329BD697D0057D766 /* Sources */,
+				E61A519429BD697D0057D766 /* Frameworks */,
+				E61A519529BD697D0057D766 /* Resources */,
+				E61A51BA29BD697E0057D766 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E61A51AA29BD697E0057D766 /* PBXTargetDependency */,
+			);
+			name = RemoteWhoopieDetonator;
+			packageProductDependencies = (
+				E6653E0329C0F01B006AA9FF /* Subsonic */,
+			);
+			productName = RemoteWhoopieDetonator;
+			productReference = E61A519729BD697D0057D766 /* RemoteWhoopieDetonator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E61A51A629BD697E0057D766 /* RemoteWhoopieDetonator Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E61A51B729BD697E0057D766 /* Build configuration list for PBXNativeTarget "RemoteWhoopieDetonator Watch App" */;
+			buildPhases = (
+				E61A51A329BD697E0057D766 /* Sources */,
+				E61A51A429BD697E0057D766 /* Frameworks */,
+				E61A51A529BD697E0057D766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RemoteWhoopieDetonator Watch App";
+			productName = "RemoteWhoopieDetonator Watch App";
+			productReference = E61A51A729BD697E0057D766 /* RemoteWhoopieDetonator Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E61A518F29BD697D0057D766 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E61A519629BD697D0057D766 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E61A51A629BD697E0057D766 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = E61A519229BD697D0057D766 /* Build configuration list for PBXProject "RemoteWhoopieDetonator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E61A518E29BD697D0057D766;
+			packageReferences = (
+				E6653E0229C0F01B006AA9FF /* XCRemoteSwiftPackageReference "Subsonic" */,
+			);
+			productRefGroup = E61A519829BD697D0057D766 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E61A519629BD697D0057D766 /* RemoteWhoopieDetonator */,
+				E61A51A629BD697E0057D766 /* RemoteWhoopieDetonator Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E61A519529BD697D0057D766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6653E0829C0F4C0006AA9FF /* Fart.m4a in Resources */,
+				E61A51A229BD697E0057D766 /* Preview Assets.xcassets in Resources */,
+				E61A519F29BD697E0057D766 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61A51A529BD697E0057D766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61A51B429BD697E0057D766 /* Preview Assets.xcassets in Resources */,
+				E61A51B129BD697E0057D766 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E61A519329BD697D0057D766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F77F0229BE4FC700E64C85 /* ViewModelIPhone.swift in Sources */,
+				E61A519D29BD697D0057D766 /* ContentView.swift in Sources */,
+				E61A519B29BD697D0057D766 /* RemoteWhoopieDetonatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61A51A329BD697E0057D766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61A51AF29BD697E0057D766 /* ContentView.swift in Sources */,
+				E6F77F0429BE50C200E64C85 /* ViewModelWatch.swift in Sources */,
+				E61A51AD29BD697E0057D766 /* RemoteWhoopieDetonatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E61A51AA29BD697E0057D766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E61A51A629BD697E0057D766 /* RemoteWhoopieDetonator Watch App */;
+			targetProxy = E61A51A929BD697E0057D766 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E61A51B529BD697E0057D766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E61A51B629BD697E0057D766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E61A51B829BD697E0057D766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RemoteWhoopieDetonator Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = GP2V62MZ3S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RemoteWhoopieDetonator;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.brentbusby.RemoteWhoopieDetonator;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brentbusby.RemoteWhoopieDetonator.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		E61A51B929BD697E0057D766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RemoteWhoopieDetonator Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = GP2V62MZ3S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RemoteWhoopieDetonator;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.brentbusby.RemoteWhoopieDetonator;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brentbusby.RemoteWhoopieDetonator.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		E61A51BC29BD697E0057D766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RemoteWhoopieDetonator/Preview Content\"";
+				DEVELOPMENT_TEAM = GP2V62MZ3S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RemoteWhoopieDetonator;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brentbusby.RemoteWhoopieDetonator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E61A51BD29BD697E0057D766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RemoteWhoopieDetonator/Preview Content\"";
+				DEVELOPMENT_TEAM = GP2V62MZ3S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RemoteWhoopieDetonator;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brentbusby.RemoteWhoopieDetonator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E61A519229BD697D0057D766 /* Build configuration list for PBXProject "RemoteWhoopieDetonator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61A51B529BD697E0057D766 /* Debug */,
+				E61A51B629BD697E0057D766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E61A51B729BD697E0057D766 /* Build configuration list for PBXNativeTarget "RemoteWhoopieDetonator Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61A51B829BD697E0057D766 /* Debug */,
+				E61A51B929BD697E0057D766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E61A51BB29BD697E0057D766 /* Build configuration list for PBXNativeTarget "RemoteWhoopieDetonator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61A51BC29BD697E0057D766 /* Debug */,
+				E61A51BD29BD697E0057D766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E6653E0229C0F01B006AA9FF /* XCRemoteSwiftPackageReference "Subsonic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/Subsonic";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E6653E0329C0F01B006AA9FF /* Subsonic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E6653E0229C0F01B006AA9FF /* XCRemoteSwiftPackageReference "Subsonic" */;
+			productName = Subsonic;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E61A518F29BD697D0057D766 /* Project object */;
+}
