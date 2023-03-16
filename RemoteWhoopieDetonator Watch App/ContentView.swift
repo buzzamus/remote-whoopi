@@ -13,11 +13,14 @@ struct ContentView: View {
     @State var fartTrigger = false
     var body: some View {
         VStack {
-            Button("Detonate") {
+            Button {
                 print("Clicking button...")
                 triggerFart()
+            } label: {
+                Text("💩")
+                    .font(.title)
             }
-            .foregroundColor(.white)
+            .clipShape(Capsule())
             .background(.red)
             .cornerRadius(30)
             
