@@ -14,7 +14,7 @@ struct ContentView: View {
     @State var reachable = "No"
     @StateObject private var sound = SubsonicPlayer(sound: "Fart3.m4a")
     @State private var triggerCount = 0
-    let allFartSounds = ["Fart.m4a", "Fart.m4a", "Fart.m4a"]
+    let allFartSounds = ["Fart.m4a", "Fart2.m4a", "Fart3.m4a"]
     var body: some View {
         NavigationView {
                 Form {
@@ -34,8 +34,8 @@ struct ContentView: View {
                     if triggerCount > 0 {
                         print(thing)
                         //sound.play()
-                        //var randomSound = Int.random(in: 0..<allFartSounds.count)
-                        //play(sound: allFartSounds[randomSound])
+                        let randomSound = Int.random(in: 0..<allFartSounds.count)
+                        play(sound: allFartSounds[randomSound])
                     }
                     triggerCount += 1
                 }

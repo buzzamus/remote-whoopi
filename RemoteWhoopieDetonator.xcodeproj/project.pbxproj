@@ -16,6 +16,8 @@
 		E61A51AF29BD697E0057D766 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61A51AE29BD697E0057D766 /* ContentView.swift */; };
 		E61A51B129BD697E0057D766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61A51B029BD697E0057D766 /* Assets.xcassets */; };
 		E61A51B429BD697E0057D766 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61A51B329BD697E0057D766 /* Preview Assets.xcassets */; };
+		E62AF32229C3F06600B763C9 /* Fart2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E62AF32029C3F06600B763C9 /* Fart2.m4a */; };
+		E62AF32329C3F06600B763C9 /* Fart3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E62AF32129C3F06600B763C9 /* Fart3.m4a */; };
 		E6653E0429C0F01B006AA9FF /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = E6653E0329C0F01B006AA9FF /* Subsonic */; };
 		E6653E0829C0F4C0006AA9FF /* Fart.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E6653E0729C0F4C0006AA9FF /* Fart.m4a */; };
 		E6F77F0229BE4FC700E64C85 /* ViewModelIPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F77F0129BE4FC700E64C85 /* ViewModelIPhone.swift */; };
@@ -57,8 +59,8 @@
 		E61A51AE29BD697E0057D766 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E61A51B029BD697E0057D766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E61A51B329BD697E0057D766 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E62AF31E29C3EBAE00B763C9 /* Fart2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fart2.m4a; sourceTree = "<group>"; };
-		E62AF31F29C3EBB400B763C9 /* Fart3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fart3.m4a; sourceTree = "<group>"; };
+		E62AF32029C3F06600B763C9 /* Fart2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fart2.m4a; sourceTree = "<group>"; };
+		E62AF32129C3F06600B763C9 /* Fart3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fart3.m4a; sourceTree = "<group>"; };
 		E6653E0729C0F4C0006AA9FF /* Fart.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fart.m4a; sourceTree = "<group>"; };
 		E6F77F0129BE4FC700E64C85 /* ViewModelIPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelIPhone.swift; sourceTree = "<group>"; };
 		E6F77F0329BE50C200E64C85 /* ViewModelWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelWatch.swift; sourceTree = "<group>"; };
@@ -104,8 +106,8 @@
 		E61A519929BD697D0057D766 /* RemoteWhoopieDetonator */ = {
 			isa = PBXGroup;
 			children = (
-				E62AF31E29C3EBAE00B763C9 /* Fart2.m4a */,
-				E62AF31F29C3EBB400B763C9 /* Fart3.m4a */,
+				E62AF32029C3F06600B763C9 /* Fart2.m4a */,
+				E62AF32129C3F06600B763C9 /* Fart3.m4a */,
 				E6653E0729C0F4C0006AA9FF /* Fart.m4a */,
 				E61A519A29BD697D0057D766 /* RemoteWhoopieDetonatorApp.swift */,
 				E61A519C29BD697D0057D766 /* ContentView.swift */,
@@ -231,9 +233,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E62AF32229C3F06600B763C9 /* Fart2.m4a in Resources */,
 				E6653E0829C0F4C0006AA9FF /* Fart.m4a in Resources */,
 				E61A51A229BD697E0057D766 /* Preview Assets.xcassets in Resources */,
 				E61A519F29BD697E0057D766 /* Assets.xcassets in Resources */,
+				E62AF32329C3F06600B763C9 /* Fart3.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
