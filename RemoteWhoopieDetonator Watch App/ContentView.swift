@@ -17,8 +17,8 @@ struct ContentView: View {
                 print("Clicking button...")
                 triggerFart()
             } label: {
-                Text("💩")
-                    .font(.title)
+                Text("Detonate Fart")
+                    .font(.headline)
             }
             .clipShape(Capsule())
             .background(.red)

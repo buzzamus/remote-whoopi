@@ -12,44 +12,34 @@ import Subsonic
 struct ContentView: View {
     @ObservedObject var model = ViewModelPhone()
     @State var reachable = "No"
-    @StateObject private var sound = SubsonicPlayer(sound: "Fart.m4a")
+    @StateObject private var sound = SubsonicPlayer(sound: "Fart3.m4a")
     @State private var triggerCount = 0
+    let allFartSounds = ["Fart.m4a", "Fart.m4a", "Fart.m4a"]
     var body: some View {
         NavigationView {
-            ZStack {
-                VStack {
-                    Text("Recommended sell status:")
-                        .offset(y: -100)
-                    Circle()
-                        .foregroundColor(.red)
-                        .frame(width: 100, height: 100)
-                        .offset(y: -100)
-                    Text("Code Red! (Do not sell)")
-                        .offset(y: -100)
-                    Text("Investment matured: \(reachable)")
+                Form {
+                    Section {
+                        Text("Incomplete Tasks:").foregroundColor(.red)
+                        Text("Replace Toilet Seat").font(.headline)
+                        Text("Buy new underwear").font(.headline)
+                        Text("Call Insurance Agent").font(.headline)
+                    }
                     
-                     Button(action: {
-                         if self.model.session.isReachable{
-                             self.reachable = "Yes"
-                         }
-                         else{
-                             self.reachable = "No"
-                         }
-                         
-                     }) {
-                         Text("Update")
-                     }
+                    Section {
+                        Text("Completed Tasks: 32").font(.headline)
+                    }.foregroundColor(.green)
                 }
-                .padding()
-            }.onReceive(self.model.$fartTrigger) { thing in
-                // triggerCount increment and check used to prevent automatic trigger of sound when app opens
-                if triggerCount > 0 {
-                    print(thing)
-                    sound.play()
+                .onReceive(self.model.$fartTrigger) { thing in
+                    // triggerCount increment and check used to prevent automatic trigger of sound when app opens
+                    if triggerCount > 0 {
+                        print(thing)
+                        //sound.play()
+                        //var randomSound = Int.random(in: 0..<allFartSounds.count)
+                        //play(sound: allFartSounds[randomSound])
+                    }
+                    triggerCount += 1
                 }
-                triggerCount += 1
-            }
-            .navigationTitle("Super Stock Seller")
+            .navigationTitle("My Todo List")
 
         }
     }

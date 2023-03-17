@@ -57,6 +57,8 @@
 		E61A51AE29BD697E0057D766 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E61A51B029BD697E0057D766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E61A51B329BD697E0057D766 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E62AF31E29C3EBAE00B763C9 /* Fart2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fart2.m4a; sourceTree = "<group>"; };
+		E62AF31F29C3EBB400B763C9 /* Fart3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fart3.m4a; sourceTree = "<group>"; };
 		E6653E0729C0F4C0006AA9FF /* Fart.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fart.m4a; sourceTree = "<group>"; };
 		E6F77F0129BE4FC700E64C85 /* ViewModelIPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelIPhone.swift; sourceTree = "<group>"; };
 		E6F77F0329BE50C200E64C85 /* ViewModelWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelWatch.swift; sourceTree = "<group>"; };
@@ -102,9 +104,11 @@
 		E61A519929BD697D0057D766 /* RemoteWhoopieDetonator */ = {
 			isa = PBXGroup;
 			children = (
+				E62AF31E29C3EBAE00B763C9 /* Fart2.m4a */,
+				E62AF31F29C3EBB400B763C9 /* Fart3.m4a */,
+				E6653E0729C0F4C0006AA9FF /* Fart.m4a */,
 				E61A519A29BD697D0057D766 /* RemoteWhoopieDetonatorApp.swift */,
 				E61A519C29BD697D0057D766 /* ContentView.swift */,
-				E6653E0729C0F4C0006AA9FF /* Fart.m4a */,
 				E61A519E29BD697E0057D766 /* Assets.xcassets */,
 				E61A51A029BD697E0057D766 /* Preview Content */,
 				E6F77F0129BE4FC700E64C85 /* ViewModelIPhone.swift */,
