@@ -7,3 +7,7 @@ How to use once installed on iPhone and Apple Watch:
 3) enjoy the juvenile humor.
 
 
+Also, there are apparently several ways to spell "Whoopie Cushion" - https://en.wikipedia.org/wiki/Whoopee_cushion
+
+
+*Yes I also thought I misspelled "Whoopee"
