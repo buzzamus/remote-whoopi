@@ -1,5 +1,9 @@
 # Remote Whoopi Detonator Apple Watch/iPhone app
 
-coming soon...
+How to use once installed on iPhone and Apple Watch:
 
-## For support please open an Issue.
+1) open iPhone app.
+2) open Apple Watch app and press the button.
+3) enjoy the juvenile humor.
+
+
