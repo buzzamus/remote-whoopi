@@ -8,7 +8,7 @@
 import Foundation
 import WatchConnectivity
 
-class ViewModelPhone : NSObject,  WCSessionDelegate, ObservableObject{
+class PhoneSessionDelegate : NSObject,  WCSessionDelegate, ObservableObject{
     var session: WCSession
     @Published var fartTrigger = false
     init(session: WCSession = .default) {

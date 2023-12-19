@@ -9,7 +9,7 @@ import SwiftUI
 import WatchConnectivity
 
 struct ContentView: View {
-    var model = ViewModelWatch()
+    var sessionDelegate = SessionDelegate()
     @State var fartTrigger = false
     var body: some View {
         VStack {
@@ -31,7 +31,7 @@ struct ContentView: View {
     func triggerFart() {
         print("triggered fart called...")
         fartTrigger = true
-        self.model.session.sendMessage(["message" : self.fartTrigger], replyHandler: nil) { (error) in
+        self.sessionDelegate.session.sendMessage(["message" : self.fartTrigger], replyHandler: nil) { (error) in
             print(error.localizedDescription)
             print("Past send message")
         }

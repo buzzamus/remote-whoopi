@@ -8,7 +8,7 @@
 import Foundation
 import WatchConnectivity
 
-class ViewModelWatch : NSObject,  WCSessionDelegate{
+class SessionDelegate : NSObject,  WCSessionDelegate{
     var session: WCSession
     init(session: WCSession = .default) {
     self.session = session

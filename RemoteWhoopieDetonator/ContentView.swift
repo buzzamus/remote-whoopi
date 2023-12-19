@@ -10,7 +10,7 @@ import AVKit
 import Subsonic
 
 struct ContentView: View {
-    @ObservedObject var model = ViewModelPhone()
+    @ObservedObject var sessionDelegate = PhoneSessionDelegate()
     @State var reachable = "No"
     @StateObject private var sound = SubsonicPlayer(sound: "Fart3.m4a")
     @State private var triggerCount = 0
@@ -29,7 +29,7 @@ struct ContentView: View {
                         Text("Completed Tasks: 32").font(.headline)
                     }.foregroundColor(.green)
                 }
-                .onReceive(self.model.$fartTrigger) { thing in
+                .onReceive(self.sessionDelegate.$fartTrigger) { thing in
                     // triggerCount increment and check used to prevent automatic trigger of sound when app opens
                     if triggerCount > 0 {
                         print(thing)
